@@ -7,15 +7,7 @@ import 'aos/dist/aos.css';
 export default function Header() {
 
 
-
     const [isOpen, setIsOpen] = useState(false);
-
-    let [status, setStatus] = useState(true);
-
-
-
-
-
 
 
     return (

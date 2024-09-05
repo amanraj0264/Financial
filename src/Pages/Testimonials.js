@@ -4,9 +4,22 @@ import user3 from '../Image/user3.jpg';
 import user4 from '../Image/user4.jpg';
 import user5 from '../Image/user5.jpg';
 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Testimonials() {
   return (
-    <div>
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+        });
+    }, []),
+    
+    <div data-aos="zoom-in">
         <div className='max-w-[1200px] mx-auto text-center  md:w-1/2 py-10'>
                 <h4 className='text-color-secondary font-bold'>User Review</h4>
                 <h1 className='tital mt-4 px-6'>What Clients Say About Our App After Use It</h1>

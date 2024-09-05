@@ -17,8 +17,9 @@ function Card() {
 
     return (
         <div className='bg-color-primary-light max-w-[1200px] mx-auto py-10' >
-            <div className='text-center mb-16' data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
+            <div className='text-center mb-16' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                 <h4 className='text-color-secondary font-bold '>Our Feature </h4>
                 <h1 className='tital mt-4'>Easy To Manage Your All <br></br> Payements By Our Apps</h1>
             </div>

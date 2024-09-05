@@ -6,8 +6,9 @@ function Pricing() {
             <section>
 
                 <div className='max-w-[1200px] mx-auto pt-20' >
-                    <div className='text-center mb-16' data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom">
+                    <div className='text-center mb-16' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <h4 className='text-color-secondary font-bold '>Pricing </h4>
                         <h1 className='tital mt-4'>Get In Resasonable Price </h1>
                     </div>

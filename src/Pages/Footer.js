@@ -8,7 +8,9 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 export default function Footer() {
   return (
-    <div className='max-w-[1200px] mx-auto bg-color-primary-dark  pt-20 pb-10 px-6'>
+    <div className='  max-w-[1200px] mx-auto bg-color-primary-dark  pt-20 pb-10  px-6'data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <div className='grid gap-10 md:grid-cols-3 pb-10'>
         <div className='space-y-6'>
           <h4 className='font-bold text-lg'>About App</h4>
